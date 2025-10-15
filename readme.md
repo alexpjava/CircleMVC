@@ -12,6 +12,10 @@ Each entry will record:
 
 ---
 
+## Table of contents
+- [Understanding process MVC](docs/understanding-mvc.md)
+---
+
 ## 🧮 1. Features
 - Input a circle’s radius.
 - Compute the **area** and **perimeter**.
@@ -32,6 +36,7 @@ The project follows the **MVC (Model-View-Controller)** pattern:
 │   View     │ <---> │ Controller  │ <---> │   Model    │
 └────────────┘       └─────────────┘       └────────────┘
 ```
+---
 
 | Layer | Role | Class |
 |-------|------|-------|
