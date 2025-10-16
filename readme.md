@@ -69,16 +69,7 @@ java-mvc-circle/
 └── README.md
 ```
 
-## 📊 4. UML Diagram
-> *(To be added once the classes are created)*
-
-The UML diagram will include:
-- `Circle` class with its attributes (`radius`) and methods (`getArea()`, `getPerimeter()`).
-- MVC relationships between the **Model**, **View**, and **Controller**.
-
----
-
-## 🧭 4.1. UML Diagram in Mermaid Format
+## 🧭 4. UML Diagram in Mermaid Format
 
 ```mermaid
 classDiagram
@@ -112,7 +103,7 @@ classDiagram
     CircleController --> Circle : creates/manages
 ```
 
-## 🧭 4.2. Full UML Diagram (Model-View-Controller)
+## 🧭 4.1. Full UML Diagram (Model-View-Controller)
 
 ```
 ┌────────────────────────────┐
@@ -300,7 +291,7 @@ CREATE TABLE circles (
 ## 🚀 8. How to Run the Project
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/java-mvc-circle.git
+   git clone https://github.com/alexpjava/java-mvc-circle.git
    cd java-mvc-circle
    ```
 
